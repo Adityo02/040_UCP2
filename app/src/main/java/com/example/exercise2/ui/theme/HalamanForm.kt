@@ -87,7 +87,7 @@ fun HalamanForm(
         Spacer(modifier = Modifier.padding(16.dp))
 
         @Composable
-        fun SelectJK(
+        fun SelectDosen(
             options: List<String>,
             onSelectionChanged: (String) -> Unit = {}
 
@@ -117,7 +117,6 @@ fun HalamanForm(
             }
         }
         Spacer(modifier = Modifier.padding(16.dp))
-
         Button(onClick =  {onSubmitButtonClick(listDataTxt)} ) {
             Text(text = stringResource(R.string.btn_submit))
         }

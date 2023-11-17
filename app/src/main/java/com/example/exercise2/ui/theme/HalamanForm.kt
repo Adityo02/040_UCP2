@@ -51,6 +51,7 @@ fun HalamanForm(
         mutableStateOf("")
     }
 
+
     var listDataTxt : MutableList<String> = mutableListOf(namaTxt, alamatTxt, telponTxt, judulTxt)
 
     Column (
@@ -85,6 +86,7 @@ fun HalamanForm(
         }
         )
         Spacer(modifier = Modifier.padding(16.dp))
+
 
         @Composable
         fun SelectDosen(

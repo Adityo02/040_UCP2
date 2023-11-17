@@ -108,5 +108,5 @@ private fun  cancelOrderAndNavigateToHome(
 private fun cancelOrderAndNavigateToRasa(
     navController: NavHostController
 ) {
-    navController.popBackStack(PengelolaHalaman.Home.name, inclusive = false)
+    navController.popBackStack(PengelolaHalaman.Formulir.name, inclusive = false)
 }
